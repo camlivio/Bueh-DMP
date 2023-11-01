@@ -1,5 +1,5 @@
 # Bueh-DMP
-This Data Management Plan is based on [Eleanor Mattern's template (2022: 68)](https://direct.mit.edu/books/oa-edited-volume/5244/chapter/3537372/The-Linguistic-Data-Life-Cycle-Sustainability-of) template. 
+This Data Management Plan is based on [Eleanor Mattern's template (2022: 68)](https://direct.mit.edu/books/oa-edited-volume/5244/chapter/3537372/The-Linguistic-Data-Life-Cycle-Sustainability-of). 
 
 # General Information 
 	•	Title of the data set: bue_data 
