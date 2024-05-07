@@ -26,5 +26,5 @@ This Data Management Plan is based on [Eleanor Mattern's template (2022: 68)](ht
 	•	The resulting data set is a data frame of 10,000 rows and 90 variables. 
 	•	We checked the data for duplicates, cleaned it, and retained 9 variables of interest: user_id, created_at, screen_name, source, display_text_width, is_retweet, symbols, lang, quoted_location
 	•	We removed Portuguese stop_words (Lopes 2013), and tokenized the text using the package Tidytext (Silge and Robinson 2016)
-	•	The source code used to calculate the association strength between words was based on Schweinberger’s (2023) tutorial, and it can be found [here](https://ladal.edu.au/coll.html)
+	•	The source code used to calculate the association strength between words was based on Schweinberger’s (2023) tutorial, and it can be found [here] (https://ladal.edu.au/coll.html)
 
