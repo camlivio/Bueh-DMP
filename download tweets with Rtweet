@@ -1,0 +1,33 @@
+library(rtweet)
+library(tidytext)
+library(tidyverse)
+library(skimr)
+
+install.packages("rtweet")
+library(rtweet)
+
+#### keys are specific to each individual's account
+token <- create_token(
+  app= "BP project", 
+  consumer_key = "xxxx",
+  consumer_secret = "xxxx", 
+  access_token = "xxxx", 
+  access_secret = "xxxx")
+token
+
+geocode_luanda <- "-8.85853,13.23543,250mi"
+n = 15000
+search_string <- 'bué OR bue OR bueh'
+
+b_ang <- search_tweets(
+  search_string, 
+  n = n, 
+  include_rts = FALSE, lang = "pt",
+  geocode = geocode_luanda,
+  retryonratelimit = TRUE,
+  type = "mixed"
+)
+
+nrow(b_ang)
+# add location info 
+b_ang$our_location <- "Angola"
