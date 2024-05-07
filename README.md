@@ -18,7 +18,7 @@ This Data Management Plan is based on [Eleanor Mattern's template (2022: 68)](ht
 
 ## Sharing and Access Information 
 	•	The data was collected via a Twitter Developer API account intended for research purposes. Currently, the Terms of Agreement of the social media platform have been updated, precluding us from publicly releasing the data set.
-	•	TBD: Link to publication that cites the data
+	•	Link to publication that cites the data: https://www.mdpi.com/2226-471X/9/3/82
 
 ## Methodological Information 
 	•	The search string used to collect the data consisted of a list of high frequency adjectives in Portuguese (bom|boa, feliz, fixe, triste, especial).
