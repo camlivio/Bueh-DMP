@@ -17,7 +17,7 @@ token
 
 geocode_luanda <- "-8.85853,13.23543,250mi"
 n = 15000
-search_string <- 'bué OR bue OR bueh'
+search_string <- 'bom OR boa OR feliz OR fixe OR longo OR especial OR geral'
 
 b_ang <- search_tweets(
   search_string, 
